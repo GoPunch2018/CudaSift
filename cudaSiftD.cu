@@ -1,7 +1,9 @@
-//********************************************************//
-// CUDA SIFT extractor by Marten Bjorkman aka Celebrandil //
-//********************************************************//  
-
+/**
+ *  Author: Marten Bjorkman
+ *  Contributor: Ethan Stewart
+ *
+ *  This file consists of a number of functions related to sift.
+ */
 #include "cudautils.h"
 #include "cudaSiftD.h"
 #include "cudaSift.h"
