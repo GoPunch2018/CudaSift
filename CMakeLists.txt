@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.26)
-project(OwnCUDASIFT CUDA)
+cmake_minimum_required(VERSION 3.21)
+project(CudaSift CUDA)
 
 find_package(OpenCV REQUIRED)
 find_package(CUDA)
@@ -25,9 +25,9 @@ set(sources geomFuncs.cpp
         utility.h
 )
 
-add_executable(OwnCUDASIFT ${cuda_sources} ${sources})
+add_executable(CudaSift ${cuda_sources} ${sources})
 
-set_target_properties(OwnCUDASIFT PROPERTIES
+set_target_properties(CudaSift PROPERTIES
         CUDA_SEPARABLE_COMPILATION ON)
 
-target_link_libraries(OwnCUDASIFT ${OpenCV_LIBS})
+target_link_libraries(CudaSift ${OpenCV_LIBS})

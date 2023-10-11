@@ -20,7 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488feac8-c831-4db5-ae2e-b9405859b16b" name="Changes" comment="" />
+    <list default="true" id="488feac8-c831-4db5-ae2e-b9405859b16b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +59,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "Pascal",
+    "git-widget-placeholder": "addcomment",
     "last_opened_file_path": "C:/Users/zhangqiangkun/CLionProjects/CudaSift/CMakeLists.txt",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,22 +70,30 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Debug.cudaSift">
-    <configuration name="cudaSift" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+  <component name="RunManager" selected="CMake Application.CudaSift">
+    <configuration name="CudaSift" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
-    <configuration name="cudasift" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cudaSift" TARGET_NAME="cudasift" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cudaSift" RUN_TARGET_NAME="cudasift">
+    <configuration name="CudaSift" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" RUN_PATH="CudaSift" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mainSift.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CudaSift" TARGET_NAME="mainSift.cpp" CONFIG_NAME="mainSift.cpp">
+      <option name="sourceFile" value="mainSift.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="CMake Application.cudasift" />
-      <item itemvalue="CMake Debug.cudaSift" />
+      <item itemvalue="C/C++ File.mainSift.cpp" />
+      <item itemvalue="CMake Application.CudaSift" />
+      <item itemvalue="CMake Debug.CudaSift" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="CMake Debug.cudaSift" />
+        <item itemvalue="C/C++ File.mainSift.cpp" />
+        <item itemvalue="CMake Debug.CudaSift" />
       </list>
     </recent_temporary>
   </component>
@@ -98,6 +108,7 @@
       <workItem from="1696915753432" duration="4419000" />
       <workItem from="1696987402907" duration="2088000" />
       <workItem from="1696989778638" duration="743000" />
+      <workItem from="1696990529727" duration="1078000" />
     </task>
     <servers />
   </component>
