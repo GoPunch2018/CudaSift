@@ -1,14 +1,14 @@
 //********************************************************//
 // CUDA SIFT extractor by Marten Bjorkman aka Celebrandil //
-//********************************************************//  
+//********************************************************//
 
-#ifndef CUDASIFTD_H
-#define CUDASIFTD_H
+#ifndef CUDASIFT_CUDASIFTD_H
+#define CUDASIFT_CUDASIFTD_H
 
 #define NUM_SCALES      5
 
 // Scale down thread block width
-#define SCALEDOWN_W    64 // 60 
+#define SCALEDOWN_W    64 // 60
 
 // Scale down thread block height
 #define SCALEDOWN_H    16 // 8
@@ -20,11 +20,11 @@
 #define SCALEUP_H       8
 
 // Find point thread block width
-#define MINMAX_W       30 //32 
+#define MINMAX_W       30 //32
 
 // Find point thread block height
-#define MINMAX_H        8 //16 
- 
+#define MINMAX_H        8 //16
+
 // Laplace thread block width
 #define LAPLACE_W     128 // 56
 
